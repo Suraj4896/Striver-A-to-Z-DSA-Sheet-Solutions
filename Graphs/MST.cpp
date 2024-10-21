@@ -15,7 +15,7 @@ int spanningTree(int V, vector<vector<int>> adj[], vector<pair<int, int>> &MST)
         while(!pq.empty()){
             //logE
             auto it = pq.top();
-            int edge = it.first;
+            int edge = it.first;                                 
             int node = it.second.first;
             int parent = it.second.second;
             pq.pop();
